@@ -2,6 +2,11 @@
 
 A Home Assistant custom Integration for local handling of Tuya-based devices.
 
+> Fork maintainers and testers: see [docs/FORK.md](docs/FORK.md) for the
+> drop-in fork installation notes and sync behavior, and
+> [docs/UPSTREAM_PR_PLAN.md](docs/UPSTREAM_PR_PLAN.md) for the proposed upstream
+> pull request split.
+
 This custom integration updates device status via pushing updates instead of polling, so status updates are fast (even when manually operated).
 The integration also supports the Tuya IoT Cloud APIs, for the retrieval of info and of the local_keys of the devices. 
 
